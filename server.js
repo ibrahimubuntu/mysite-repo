@@ -1,16 +1,7 @@
 var express = require('express');
 var app =express();
-var date = new Date().toString();
-var middleWare={
-	requireAuthntication: function  (req,res,next) {
-		console.log('someone on site');
-		next();
-	},
-	logger : function  (req,res,next) {
-		console.log('Request:\n Time:' + date + '\n Type: ' + req.method + '\n URL: ' + req.originalUrl );
-		next();
-	}
-};
+var middleWare = require('./middleWare.js');
+
 
 app.use(middleWare.logger);
 
