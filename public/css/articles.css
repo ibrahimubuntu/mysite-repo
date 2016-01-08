@@ -1,0 +1,32 @@
+body
+{
+    background-image: url("../sources/4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#startlist li
+{
+	font-size: 25px;
+	text-align: center;
+	list-style: none;
+}
+#startlist a
+{
+	color: #d9534f;
+}
+#headerr
+{
+	margin-top: 100px;
+	font-size: -webkit-xxx-large;
+	text-align: center;
+}
+#copyRight
+{
+	background-color: #f74c3c;
+	padding-top: 60px;
+	padding-bottom:30px;
+	font-weight: 600; 
+	margin-bottom:0px;
+	margin-top: 250px;
+	position: static;
+}

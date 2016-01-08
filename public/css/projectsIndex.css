@@ -1,0 +1,44 @@
+/*!
+ * Start Bootstrap - 1 Col Portfolio HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: darkgray;
+}
+
+footer {
+    margin: 50px 0;
+}
+#copyRight
+{
+	background-color: #f74c3c;
+	padding-top: 60px;
+	padding-bottom:30px;
+	font-weight: 600; 
+	margin-bottom:0px;
+	margin-top: 97px;
+}
+.newSize
+{
+	width: 52.33333%;
+}
+body h3
+{
+	font-weight: 800;
+	font-family: 'Lobster', courier, cursive;
+	text-decoration: underline;
+  	font-size: -webkit-xxx-large;
+}
+body h4
+{
+	font-weight: 700;
+}
+body p
+{
+	font-weight: 700;
+	font-family: 'Indie Flower', courier, cursive;
+	font-size: larger;
+}

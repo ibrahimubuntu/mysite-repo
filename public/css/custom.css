@@ -1,0 +1,190 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+ 
+}
+ul.nav, .jumbotron
+{
+	font-family: 'Arvo', courier, serif;
+}
+
+ul.nav
+{
+	font-size: 13px;
+}
+
+.jumbotron
+{
+  text-align: left;
+  font-family: 'Arvo', courier, serif;
+
+
+}
+
+#myImage
+{
+	  background-image: url("../images/me1.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: inherit;
+  margin-bottom: auto;
+    color: ivory;
+    height: auto !important ;
+    width: auto !important;
+}
+
+
+
+.brhoom
+{
+	font-family: 'Lobster', courier, cursive;
+}
+
+.navbar-brand
+{
+	font-family: 'Lobster', courier, cursive;
+}
+.jumbotron h1
+{
+	line-height: 3;
+	font-size: 72px;
+	margin-top: 0px;
+}
+.btu
+{
+	color: transparent;
+}
+.jumbotron .container 
+{
+	max-width: 100%;
+	height: 600px;
+}
+.row
+{
+	margin-top: 75px;
+}
+.row h2
+{
+	color: #f74c3c;
+}
+.row p
+{
+	font-weight: 700;
+}
+.tooot
+{
+	text-align: center;
+}
+
+.tooot a:hover
+{
+	color: #f74c3c;
+	text-decoration: none;
+	opacity: .7;
+}
+.middelPadd
+{
+	padding: 0px 50px 0px 50px;
+}
+.fa-stack
+{
+	color: dimgray;
+}
+.row a
+{
+	color: #f74c3c;
+	background-color: silver;
+}
+#siteContant
+{
+	background-color: gainsboro;
+	padding-bottom: 30px;
+}
+#copyRight
+{
+	background-color: #f74c3c;
+	padding-top: 150px;
+	padding-bottom:30px;
+	font-weight: 600; 
+	margin-bottom: -20px;
+}
+
+.hello
+{
+	height: 30px;
+	width: 55%;
+}
+@media (max-width: 1200px) {
+	.jumbotron h1
+	{
+		font-size:50px;
+		margin-bottom: 0px;
+	}
+
+ @media (max-width: 992px) {
+	.jumbotron h1
+	{
+		font-size:40px;
+		margin-bottom: 0px;
+	}
+	.jumbotron p
+	{
+		font-size: 16px;
+	}
+
+ }
+  @media (max-width: 666px) {
+	.jumbotron h1
+	{
+		font-size:36px;
+		margin-bottom: 0px;
+	}
+	.jumbotron p
+	{
+		font-size: 10px;
+	}
+	#siteContant .col-md-4
+	{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+ }
+
+  @media (max-width: 480px) {
+	.jumbotron h1
+	{
+		font-size:25px;
+		margin-bottom: 0px;
+	}
+	.jumbotron p
+	{
+		font-size: 8px;
+	}
+	#siteContant .col-md-4
+	{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+ }
+
+   @media (max-width: 300px) {
+	.jumbotron h1
+	{
+		font-size:14px;
+		margin-bottom: 0px;
+	}
+	.jumbotron p
+	{
+		font-size: 3px;
+	}
+	#siteContant .col-md-4
+	{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+ }

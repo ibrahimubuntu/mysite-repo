@@ -1,0 +1,49 @@
+body
+{
+	background-color: darkgray;
+}
+
+#copyRight
+{
+	background-color: #f74c3c;
+	padding-top: 60px;
+	padding-bottom:30px;
+	font-weight: 600; 
+	margin-bottom:0px;
+	margin-top: 210px;
+	position: static;
+}
+.video
+{
+	 margin-top: 10px;
+  	width: 614px;
+  	height: 370px;
+  	margin-left:230px;
+}
+.md
+{
+	margin-top: 90px;
+}
+.lis
+{
+	list-style: none;
+	margin-left: -43px;
+}
+.arrowSize
+{
+	font-size: 15px;
+  	position: static;
+ 	margin-left: 735px;
+}
+.arrowSize1
+{
+	font-size: 15px;
+	position: static;
+  	margin-left: 975px
+}
+.arrowSize2
+{
+	font-size: 15px;
+	position: static;
+	margin-left: 1030px;
+}
